@@ -1,0 +1,42 @@
+[
+  {
+    "Id": "28689020",
+    "Name": "Vengeance",
+    "Maker": "Corsair",
+    "Memory": 16,
+    "DDR": 4,
+    "MHz": 3200,
+    "PurchasePrice": 800,
+    "RetailPrice": 999
+  },
+  {
+    "Id": "88998731",
+    "Name": "FURY Beast",
+    "Maker": "Kingston",
+    "Memory": 32,
+    "DDR": 4,
+    "MHz": 3200,
+    "PurchasePrice": 1999,
+    "RetailPrice": 2219
+  },
+  {
+    "Id": "48892626",
+    "Name": "FURY Impact",
+    "Maker": "Kingston",
+    "Memory": 8,
+    "DDR": 4,
+    "MHz": 2666,
+    "PurchasePrice": 499,
+    "RetailPrice": 529
+  },
+  {
+    "Id": "44436908",
+    "Name": "Vengeance PRO SL",
+    "Maker": "Corsair",
+    "Memory": 16,
+    "DDR": 4,
+    "MHz": 3200,
+    "PurchasePrice": 1200,
+    "RetailPrice": 1439
+  }
+]

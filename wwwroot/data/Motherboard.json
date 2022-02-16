@@ -1,0 +1,44 @@
+[
+  {
+    "Id": "36614963",
+    "Name": "PRIME B450, Socket-AM4",
+    "Maker": "ASUS",
+    "PurchasePrice": 700,
+    "RetailPrice": 829
+  },
+  {
+    "Id": "70053498",
+    "Name": "TUF B450M-PRO, AM4",
+    "Maker": "ASUS",
+    "PurchasePrice": 800,
+    "RetailPrice": 999
+  },
+  {
+    "Id": "92638994",
+    "Name": "MPG B550, AM4",
+    "Maker": "MSI",
+    "PurchasePrice": 1600,
+    "RetailPrice": 1899
+  },
+  {
+    "Id": "49572096",
+    "Name": "B550M AUROS ELITE, AM4",
+    "Maker": "Gigabyte",
+    "PurchasePrice": 999,
+    "RetailPrice": 1215
+  },
+  {
+    "Id": "41223529",
+    "Name": "Z590, LGA1200",
+    "Maker": "Gigabyte",
+    "PurchasePrice": 1800,
+    "RetailPrice": 2049
+  },
+  {
+    "Id": "64552028",
+    "Name": "PRIME H510M-E, LGA1200",
+    "Maker": "ASUS",
+    "PurchasePrice": 800,
+    "RetailPrice": 909
+  }
+]

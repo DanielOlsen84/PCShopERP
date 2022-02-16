@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "46013145",
+    "Name": "V650 SFX Gold",
+    "Maker": "Cooler Master",
+    "Watt": 650,
+    "PurchasePrice": 1000,
+    "RetailPrice": 1343
+  },
+  {
+    "Id": "92847715",
+    "Name": "C650",
+    "Maker": "NZXT",
+    "Watt": 650,
+    "PurchasePrice": 700,
+    "RetailPrice": 899
+  },
+  {
+    "Id": "65618991",
+    "Name": "MWE Bronze",
+    "Maker": "Cooler Master",
+    "Watt": 750,
+    "PurchasePrice": 650,
+    "RetailPrice": 799
+  },
+  {
+    "Id": "49221247",
+    "Name": "RM850",
+    "Maker": "Corsair",
+    "Watt": 850,
+    "PurchasePrice": 1099,
+    "RetailPrice": 1369
+  },
+  {
+    "Id": "14572386",
+    "Name": "AX1600i",
+    "Maker": "Corsair",
+    "Watt": 1600,
+    "PurchasePrice": 4999,
+    "RetailPrice": 5590
+  },
+  {
+    "Id": "62289623",
+    "Name": "RM550x",
+    "Maker": "Corsair",
+    "Watt": 550,
+    "PurchasePrice": 600,
+    "RetailPrice": 790
+  }
+]

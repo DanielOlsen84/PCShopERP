@@ -1,0 +1,128 @@
+[
+  {
+    "Id": "94762841",
+    "Name": "Core i5-12600K",
+    "Maker": "Intel",
+    "GHz": "3.6/4.9",
+    "Cores": 10,
+    "PurchasePrice": 2800,
+    "RetailPrice": 3269
+  },
+  {
+    "Id": "85124717",
+    "Name": "Core i9-12900K",
+    "Maker": "Intel",
+    "GHz": "3.2/5.2",
+    "Cores": 16,
+    "PurchasePrice": 5700,
+    "RetailPrice": 6490
+  },
+  {
+    "Id": "40195643",
+    "Name": "Core i5-10600KF",
+    "Maker": "Intel",
+    "GHz": "4.1/4.8",
+    "Cores": 6,
+    "PurchasePrice": 1900,
+    "RetailPrice": 2229
+  },
+  {
+    "Id": "49049918",
+    "Name": "Core i3-10100F",
+    "Maker": "Intel",
+    "GHz": "3.6/4.3",
+    "Cores": 4,
+    "PurchasePrice": 650,
+    "RetailPrice": 889
+  },
+  {
+    "Id": "25157751",
+    "Name": "Core i7-11700",
+    "Maker": "Intel",
+    "GHz": "2.5/4.9",
+    "Cores": 8,
+    "PurchasePrice": 3000,
+    "RetailPrice": 3490
+  },
+  {
+    "Id": "67217234",
+    "Name": "Core i5-11500",
+    "Maker": "Intel",
+    "GHz": "2.7/4.6",
+    "Cores": 6,
+    "PurchasePrice": 1900,
+    "RetailPrice": 2190
+  },
+  {
+    "Id": "57208569",
+    "Name": "AM4 Ryzen 7 5700G",
+    "Maker": "AMD",
+    "GHz": "3.8/4.6",
+    "Cores": 8,
+    "PurchasePrice": 3000,
+    "RetailPrice": 3590
+  },
+  {
+    "Id": "60728777",
+    "Name": "AM4 Ryzen 5 5600G",
+    "Maker": "AMD",
+    "GHz": "3.9/4.4",
+    "Cores": 6,
+    "PurchasePrice": 2100,
+    "RetailPrice": 2670
+  },
+  {
+    "Id": "37504026",
+    "Name": "Core i9-11900",
+    "Maker": "Intel",
+    "GHz": "2.5/5.2",
+    "Cores": 8,
+    "PurchasePrice": 3700,
+    "RetailPrice": 4290
+  },
+  {
+    "Id": "43651505",
+    "Name": "Ryzen 9 5950X",
+    "Maker": "AMD",
+    "GHz": "3.4/4.9",
+    "Cores": 16,
+    "PurchasePrice": 7200,
+    "RetailPrice": 7881
+  },
+  {
+    "Id": "47108818",
+    "Name": "Ryzen 7 5800X",
+    "Maker": "AMD",
+    "GHz": "3.8/4.7",
+    "Cores": 8,
+    "PurchasePrice": 3100,
+    "RetailPrice": 3698
+  },
+  {
+    "Id": "31678377",
+    "Name": "Ryzen 5 5600X",
+    "Maker": "AMD",
+    "GHz": "3.7/4.6",
+    "Cores": 6,
+    "PurchasePrice": 2300,
+    "RetailPrice": 2898
+  },
+  {
+    "Id": "70196476",
+    "Name": "Pentium G6405",
+    "Maker": "Intel",
+    "GHz": "4.1",
+    "Cores": 1,
+    "PurchasePrice": 450,
+    "RetailPrice": 623
+  },
+  {
+    "Id": "80379772",
+    "Name": "Xeon W-2245",
+    "Maker": "Intel",
+    "GHz": "3.9/4.5",
+    "Cores": 8,
+    "PurchasePrice": 6900,
+    "RetailPrice": 7830
+  }
+]

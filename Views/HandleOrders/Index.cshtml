@@ -1,0 +1,74 @@
+﻿@model IEnumerable<PCShopERP.Models.PCModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<div class="card listCard">
+    <table class="table">
+        <thead class="card-header">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Chassi)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CPU)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.GPU)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.HDD)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Motherboard)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PSU)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.RAM)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody >
+    @foreach (var item in Model) {
+            <tr>
+                <td>
+                    <strong>@Html.DisplayFor(modelItem => item.Chassi.Maker)</strong> <br> @Html.DisplayFor(modelItem => item.Chassi.Name)
+                </td>
+                <td>
+                    <strong>@Html.DisplayFor(modelItem => item.CPU.Maker)</strong> <br> @Html.DisplayFor(modelItem => item.CPU.Name)
+                </td>
+                <td>
+                    <strong>@Html.DisplayFor(modelItem => item.GPU.Maker)</strong> <br> @Html.DisplayFor(modelItem => item.GPU.Name)
+                </td>
+                <td>
+                    <strong>@Html.DisplayFor(modelItem => item.HDD.Maker)</strong> <br> @Html.DisplayFor(modelItem => item.HDD.Name)
+                </td>
+                <td>
+                    <strong>@Html.DisplayFor(modelItem => item.Motherboard.Maker)</strong> <br> @Html.DisplayFor(modelItem => item.Motherboard.Name)
+                </td>
+                <td>
+                    <strong>@Html.DisplayFor(modelItem => item.PSU.Maker)</strong> <br> @Html.DisplayFor(modelItem => item.PSU.Name)
+                </td>
+                <td>
+                    <strong>@Html.DisplayFor(modelItem => item.RAM.Maker)</strong> <br> @Html.DisplayFor(modelItem => item.RAM.Name)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>
+</div>

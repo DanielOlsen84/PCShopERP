@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "99145171",
+    "Name": "H510 Flow",
+    "Maker": "NZXT",
+    "Type": 0,
+    "InStore": 2,
+    "Reserved": 3
+  },
+  {
+    "Id": "74736374",
+    "Name": "GeForce RTX3080 SUPRIM X 10G",
+    "Maker": "MSI",
+    "Type": 2,
+    "InStore": 3,
+    "Reserved": 6
+  },
+  {
+    "Id": "44570885",
+    "Name": "Strix Helios",
+    "Maker": "ASUS",
+    "Type": 0,
+    "InStore": 1,
+    "Reserved": 2
+  },
+  {
+    "Id": "63973402",
+    "Name": "iCUE 220T",
+    "Maker": "Corsair",
+    "Type": 0,
+    "InStore": 2,
+    "Reserved": 2
+  }
+]

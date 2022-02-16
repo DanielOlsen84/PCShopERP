@@ -1,0 +1,56 @@
+﻿@model IEnumerable<PCShopERP.Models.InventoryObject>
+
+@{
+    ViewData["Title"] = "ViewOrderedComponents";
+}
+
+<h1>ViewOrderedComponents</h1>
+
+<div class="card listCard">
+    <table class="table">
+        <thead class="card-header">
+            <tr>
+                <th>
+                    Maker
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Type
+                </th>
+                <th>
+                    Ordered
+                </th>
+                <th>
+                    In stock
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Maker)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Type)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Reserved) 
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.InStore)
+                </td>
+                <td>
+                    
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>
+</div>

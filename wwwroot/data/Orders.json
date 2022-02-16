@@ -1,0 +1,482 @@
+[
+  {
+    "Chassi": {
+      "Id": "63973402",
+      "Name": "iCUE 220T",
+      "Maker": "Corsair",
+      "PurchasePrice": 800,
+      "RetailPrice": 1139
+    },
+    "CPU": {
+      "Id": "94762841",
+      "Name": "Core i5-12600K",
+      "Maker": "Intel",
+      "GHz": "3.6/4.9",
+      "Cores": 10,
+      "PurchasePrice": 2800,
+      "RetailPrice": 3269
+    },
+    "GPU": {
+      "Id": "74736374",
+      "Name": "GeForce RTX3080 SUPRIM X 10G",
+      "Maker": "MSI",
+      "Memory": 10,
+      "PurchasePrice": 11000,
+      "RetailPrice": 13999
+    },
+    "HDD": {
+      "Id": "35511522",
+      "Name": "SN850 SSD",
+      "Maker": "WD",
+      "RPM": 0,
+      "Size": 1000,
+      "PurchasePrice": 2200,
+      "RetailPrice": 2745
+    },
+    "Motherboard": {
+      "Id": "36614963",
+      "Name": "PRIME B450, Socket-AM4",
+      "Maker": "ASUS",
+      "PurchasePrice": 700,
+      "RetailPrice": 829
+    },
+    "PSU": {
+      "Id": "46013145",
+      "Name": "V650 SFX Gold",
+      "Maker": "Cooler Master",
+      "Watt": 650,
+      "PurchasePrice": 1000,
+      "RetailPrice": 1343
+    },
+    "RAM": {
+      "Id": "28689020",
+      "Name": "Vengeance",
+      "Maker": "Corsair",
+      "Memory": 16,
+      "DDR": 4,
+      "MHz": 3200,
+      "PurchasePrice": 800,
+      "RetailPrice": 999
+    }
+  },
+  {
+    "Chassi": {
+      "Id": "99145171",
+      "Name": "H510 Flow",
+      "Maker": "NZXT",
+      "PurchasePrice": 1100,
+      "RetailPrice": 1479
+    },
+    "CPU": {
+      "Id": "60728777",
+      "Name": "AM4 Ryzen 5 5600G",
+      "Maker": "AMD",
+      "GHz": "3.9/4.4",
+      "Cores": 6,
+      "PurchasePrice": 2100,
+      "RetailPrice": 2670
+    },
+    "GPU": {
+      "Id": "74736374",
+      "Name": "GeForce RTX3080 SUPRIM X 10G",
+      "Maker": "MSI",
+      "Memory": 10,
+      "PurchasePrice": 11000,
+      "RetailPrice": 13999
+    },
+    "HDD": {
+      "Id": "35511522",
+      "Name": "SN850 SSD",
+      "Maker": "WD",
+      "RPM": 0,
+      "Size": 1000,
+      "PurchasePrice": 2200,
+      "RetailPrice": 2745
+    },
+    "Motherboard": {
+      "Id": "36614963",
+      "Name": "PRIME B450, Socket-AM4",
+      "Maker": "ASUS",
+      "PurchasePrice": 700,
+      "RetailPrice": 829
+    },
+    "PSU": {
+      "Id": "46013145",
+      "Name": "V650 SFX Gold",
+      "Maker": "Cooler Master",
+      "Watt": 650,
+      "PurchasePrice": 1000,
+      "RetailPrice": 1343
+    },
+    "RAM": {
+      "Id": "48892626",
+      "Name": "FURY Impact",
+      "Maker": "Kingston",
+      "Memory": 8,
+      "DDR": 4,
+      "MHz": 2666,
+      "PurchasePrice": 499,
+      "RetailPrice": 529
+    }
+  },
+  {
+    "Chassi": {
+      "Id": "99145171",
+      "Name": "H510 Flow",
+      "Maker": "NZXT",
+      "PurchasePrice": 1100,
+      "RetailPrice": 1479
+    },
+    "CPU": {
+      "Id": "94762841",
+      "Name": "Core i5-12600K",
+      "Maker": "Intel",
+      "GHz": "3.6/4.9",
+      "Cores": 10,
+      "PurchasePrice": 2800,
+      "RetailPrice": 3269
+    },
+    "GPU": {
+      "Id": "74736374",
+      "Name": "GeForce RTX3080 SUPRIM X 10G",
+      "Maker": "MSI",
+      "Memory": 10,
+      "PurchasePrice": 11000,
+      "RetailPrice": 13999
+    },
+    "HDD": {
+      "Id": "35511522",
+      "Name": "SN850 SSD",
+      "Maker": "WD",
+      "RPM": 0,
+      "Size": 1000,
+      "PurchasePrice": 2200,
+      "RetailPrice": 2745
+    },
+    "Motherboard": {
+      "Id": "36614963",
+      "Name": "PRIME B450, Socket-AM4",
+      "Maker": "ASUS",
+      "PurchasePrice": 700,
+      "RetailPrice": 829
+    },
+    "PSU": {
+      "Id": "46013145",
+      "Name": "V650 SFX Gold",
+      "Maker": "Cooler Master",
+      "Watt": 650,
+      "PurchasePrice": 1000,
+      "RetailPrice": 1343
+    },
+    "RAM": {
+      "Id": "28689020",
+      "Name": "Vengeance",
+      "Maker": "Corsair",
+      "Memory": 16,
+      "DDR": 4,
+      "MHz": 3200,
+      "PurchasePrice": 800,
+      "RetailPrice": 999
+    }
+  },
+  {
+    "Chassi": {
+      "Id": "63973402",
+      "Name": "iCUE 220T",
+      "Maker": "Corsair",
+      "PurchasePrice": 800,
+      "RetailPrice": 1139
+    },
+    "CPU": {
+      "Id": "25157751",
+      "Name": "Core i7-11700",
+      "Maker": "Intel",
+      "GHz": "2.5/4.9",
+      "Cores": 8,
+      "PurchasePrice": 3000,
+      "RetailPrice": 3490
+    },
+    "GPU": {
+      "Id": "61351297",
+      "Name": "GeForce RTX3050 DUAL OC",
+      "Maker": "ASUS",
+      "Memory": 8,
+      "PurchasePrice": 3800,
+      "RetailPrice": 4990
+    },
+    "HDD": {
+      "Id": "22183316",
+      "Name": "MP600 CORE SSD",
+      "Maker": "Corsair",
+      "RPM": 0,
+      "Size": 1000,
+      "PurchasePrice": 1100,
+      "RetailPrice": 1449
+    },
+    "Motherboard": {
+      "Id": "70053498",
+      "Name": "TUF B450M-PRO, AM4",
+      "Maker": "ASUS",
+      "PurchasePrice": 800,
+      "RetailPrice": 999
+    },
+    "PSU": {
+      "Id": "65618991",
+      "Name": "MWE Bronze",
+      "Maker": "Cooler Master",
+      "Watt": 750,
+      "PurchasePrice": 650,
+      "RetailPrice": 799
+    },
+    "RAM": {
+      "Id": "28689020",
+      "Name": "Vengeance",
+      "Maker": "Corsair",
+      "Memory": 16,
+      "DDR": 4,
+      "MHz": 3200,
+      "PurchasePrice": 800,
+      "RetailPrice": 999
+    }
+  },
+  {
+    "Chassi": {
+      "Id": "44570885",
+      "Name": "Strix Helios",
+      "Maker": "ASUS",
+      "PurchasePrice": 2700,
+      "RetailPrice": 3199
+    },
+    "CPU": {
+      "Id": "43651505",
+      "Name": "Ryzen 9 5950X",
+      "Maker": "AMD",
+      "GHz": "3.4/4.9",
+      "Cores": 16,
+      "PurchasePrice": 7200,
+      "RetailPrice": 7881
+    },
+    "GPU": {
+      "Id": "31005610",
+      "Name": "Radeon RX 6800 XT",
+      "Maker": "MSI",
+      "Memory": 16,
+      "PurchasePrice": 10500,
+      "RetailPrice": 13337
+    },
+    "HDD": {
+      "Id": "22183316",
+      "Name": "MP600 CORE SSD",
+      "Maker": "Corsair",
+      "RPM": 0,
+      "Size": 1000,
+      "PurchasePrice": 1100,
+      "RetailPrice": 1449
+    },
+    "Motherboard": {
+      "Id": "36614963",
+      "Name": "PRIME B450, Socket-AM4",
+      "Maker": "ASUS",
+      "PurchasePrice": 700,
+      "RetailPrice": 829
+    },
+    "PSU": {
+      "Id": "49221247",
+      "Name": "RM850",
+      "Maker": "Corsair",
+      "Watt": 850,
+      "PurchasePrice": 1099,
+      "RetailPrice": 1369
+    },
+    "RAM": {
+      "Id": "88998731",
+      "Name": "FURY Beast",
+      "Maker": "Kingston",
+      "Memory": 32,
+      "DDR": 4,
+      "MHz": 3200,
+      "PurchasePrice": 1999,
+      "RetailPrice": 2219
+    }
+  },
+  {
+    "Chassi": {
+      "Id": "99145171",
+      "Name": "H510 Flow",
+      "Maker": "NZXT",
+      "PurchasePrice": 1100,
+      "RetailPrice": 1479
+    },
+    "CPU": {
+      "Id": "94762841",
+      "Name": "Core i5-12600K",
+      "Maker": "Intel",
+      "GHz": "3.6/4.9",
+      "Cores": 10,
+      "PurchasePrice": 2800,
+      "RetailPrice": 3269
+    },
+    "GPU": {
+      "Id": "74736374",
+      "Name": "GeForce RTX3080 SUPRIM X 10G",
+      "Maker": "MSI",
+      "Memory": 10,
+      "PurchasePrice": 11000,
+      "RetailPrice": 13999
+    },
+    "HDD": {
+      "Id": "35511522",
+      "Name": "SN850 SSD",
+      "Maker": "WD",
+      "RPM": 0,
+      "Size": 1000,
+      "PurchasePrice": 2200,
+      "RetailPrice": 2745
+    },
+    "Motherboard": {
+      "Id": "36614963",
+      "Name": "PRIME B450, Socket-AM4",
+      "Maker": "ASUS",
+      "PurchasePrice": 700,
+      "RetailPrice": 829
+    },
+    "PSU": {
+      "Id": "46013145",
+      "Name": "V650 SFX Gold",
+      "Maker": "Cooler Master",
+      "Watt": 650,
+      "PurchasePrice": 1000,
+      "RetailPrice": 1343
+    },
+    "RAM": {
+      "Id": "28689020",
+      "Name": "Vengeance",
+      "Maker": "Corsair",
+      "Memory": 16,
+      "DDR": 4,
+      "MHz": 3200,
+      "PurchasePrice": 800,
+      "RetailPrice": 999
+    }
+  },
+  {
+    "Chassi": {
+      "Id": "51009077",
+      "Name": "5000D",
+      "Maker": "Corsair",
+      "PurchasePrice": 1290,
+      "RetailPrice": 1690
+    },
+    "CPU": {
+      "Id": "94762841",
+      "Name": "Core i5-12600K",
+      "Maker": "Intel",
+      "GHz": "3.6/4.9",
+      "Cores": 10,
+      "PurchasePrice": 2800,
+      "RetailPrice": 3269
+    },
+    "GPU": {
+      "Id": "74736374",
+      "Name": "GeForce RTX3080 SUPRIM X 10G",
+      "Maker": "MSI",
+      "Memory": 10,
+      "PurchasePrice": 11000,
+      "RetailPrice": 13999
+    },
+    "HDD": {
+      "Id": "35511522",
+      "Name": "SN850 SSD",
+      "Maker": "WD",
+      "RPM": 0,
+      "Size": 1000,
+      "PurchasePrice": 2200,
+      "RetailPrice": 2745
+    },
+    "Motherboard": {
+      "Id": "36614963",
+      "Name": "PRIME B450, Socket-AM4",
+      "Maker": "ASUS",
+      "PurchasePrice": 700,
+      "RetailPrice": 829
+    },
+    "PSU": {
+      "Id": "46013145",
+      "Name": "V650 SFX Gold",
+      "Maker": "Cooler Master",
+      "Watt": 650,
+      "PurchasePrice": 1000,
+      "RetailPrice": 1343
+    },
+    "RAM": {
+      "Id": "28689020",
+      "Name": "Vengeance",
+      "Maker": "Corsair",
+      "Memory": 16,
+      "DDR": 4,
+      "MHz": 3200,
+      "PurchasePrice": 800,
+      "RetailPrice": 999
+    }
+  },
+  {
+    "Chassi": {
+      "Id": "44570885",
+      "Name": "Strix Helios",
+      "Maker": "ASUS",
+      "PurchasePrice": 2700,
+      "RetailPrice": 3199
+    },
+    "CPU": {
+      "Id": "94762841",
+      "Name": "Core i5-12600K",
+      "Maker": "Intel",
+      "GHz": "3.6/4.9",
+      "Cores": 10,
+      "PurchasePrice": 2800,
+      "RetailPrice": 3269
+    },
+    "GPU": {
+      "Id": "74736374",
+      "Name": "GeForce RTX3080 SUPRIM X 10G",
+      "Maker": "MSI",
+      "Memory": 10,
+      "PurchasePrice": 11000,
+      "RetailPrice": 13999
+    },
+    "HDD": {
+      "Id": "35511522",
+      "Name": "SN850 SSD",
+      "Maker": "WD",
+      "RPM": 0,
+      "Size": 1000,
+      "PurchasePrice": 2200,
+      "RetailPrice": 2745
+    },
+    "Motherboard": {
+      "Id": "36614963",
+      "Name": "PRIME B450, Socket-AM4",
+      "Maker": "ASUS",
+      "PurchasePrice": 700,
+      "RetailPrice": 829
+    },
+    "PSU": {
+      "Id": "46013145",
+      "Name": "V650 SFX Gold",
+      "Maker": "Cooler Master",
+      "Watt": 650,
+      "PurchasePrice": 1000,
+      "RetailPrice": 1343
+    },
+    "RAM": {
+      "Id": "28689020",
+      "Name": "Vengeance",
+      "Maker": "Corsair",
+      "Memory": 16,
+      "DDR": 4,
+      "MHz": 3200,
+      "PurchasePrice": 800,
+      "RetailPrice": 999
+    }
+  }
+]

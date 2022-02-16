@@ -1,0 +1,44 @@
+[
+  {
+    "Id": "99145171",
+    "Name": "H510 Flow",
+    "Maker": "NZXT",
+    "PurchasePrice": 1100,
+    "RetailPrice": 1479
+  },
+  {
+    "Id": "56704029",
+    "Name": "H1",
+    "Maker": "NZXT",
+    "PurchasePrice": 2800,
+    "RetailPrice": 3329
+  },
+  {
+    "Id": "51009077",
+    "Name": "5000D",
+    "Maker": "Corsair",
+    "PurchasePrice": 1290,
+    "RetailPrice": 1690
+  },
+  {
+    "Id": "63973402",
+    "Name": "iCUE 220T",
+    "Maker": "Corsair",
+    "PurchasePrice": 800,
+    "RetailPrice": 1139
+  },
+  {
+    "Id": "44570885",
+    "Name": "Strix Helios",
+    "Maker": "ASUS",
+    "PurchasePrice": 2700,
+    "RetailPrice": 3199
+  },
+  {
+    "Id": "20824150",
+    "Name": "Eclipse P600S",
+    "Maker": "Phanteks",
+    "PurchasePrice": 1500,
+    "RetailPrice": 1771
+  }
+]

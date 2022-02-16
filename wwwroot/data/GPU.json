@@ -1,0 +1,58 @@
+[
+  {
+    "Id": "74736374",
+    "Name": "GeForce RTX3080 SUPRIM X 10G",
+    "Maker": "MSI",
+    "Memory": 10,
+    "PurchasePrice": 11000,
+    "RetailPrice": 13999
+  },
+  {
+    "Id": "91969027",
+    "Name": "Radeon RX 6600 XT Gaming OC",
+    "Maker": "Gigabyte",
+    "Memory": 8,
+    "PurchasePrice": 4999,
+    "RetailPrice": 5499
+  },
+  {
+    "Id": "56604362",
+    "Name": "GeForce RTX 3080 ROG Strix OC",
+    "Maker": "ASUS",
+    "Memory": 10,
+    "PurchasePrice": 11000,
+    "RetailPrice": 13799
+  },
+  {
+    "Id": "35073288",
+    "Name": "GeForce GTX 1660 SUPER OC",
+    "Maker": "Gigabyte",
+    "Memory": 6,
+    "PurchasePrice": 4800,
+    "RetailPrice": 5199
+  },
+  {
+    "Id": "31005610",
+    "Name": "Radeon RX 6800 XT",
+    "Maker": "MSI",
+    "Memory": 16,
+    "PurchasePrice": 10500,
+    "RetailPrice": 13337
+  },
+  {
+    "Id": "34569840",
+    "Name": "GeForce RTX 2060 DUAL EVO",
+    "Maker": "ASUS",
+    "Memory": 6,
+    "PurchasePrice": 3900,
+    "RetailPrice": 4999
+  },
+  {
+    "Id": "61351297",
+    "Name": "GeForce RTX3050 DUAL OC",
+    "Maker": "ASUS",
+    "Memory": 8,
+    "PurchasePrice": 3800,
+    "RetailPrice": 4990
+  }
+]

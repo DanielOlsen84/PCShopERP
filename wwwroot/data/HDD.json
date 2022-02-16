@@ -1,0 +1,56 @@
+[
+  {
+    "Id": "35511522",
+    "Name": "SN850 SSD",
+    "Maker": "WD",
+    "RPM": 0,
+    "Size": 1000,
+    "PurchasePrice": 2200,
+    "RetailPrice": 2745
+  },
+  {
+    "Id": "74067333",
+    "Name": "SA500",
+    "Maker": "WD",
+    "RPM": 0,
+    "Size": 1000,
+    "PurchasePrice": 1100,
+    "RetailPrice": 1400
+  },
+  {
+    "Id": "56432556",
+    "Name": "980 PRO SSD",
+    "Maker": "Samsung",
+    "RPM": 0,
+    "Size": 500,
+    "PurchasePrice": 959,
+    "RetailPrice": 1299
+  },
+  {
+    "Id": "54720357",
+    "Name": "FireCuda 530 SSD",
+    "Maker": "Seagate",
+    "RPM": 0,
+    "Size": 2000,
+    "PurchasePrice": 3900,
+    "RetailPrice": 4399
+  },
+  {
+    "Id": "22183316",
+    "Name": "MP600 CORE SSD",
+    "Maker": "Corsair",
+    "RPM": 0,
+    "Size": 1000,
+    "PurchasePrice": 1100,
+    "RetailPrice": 1449
+  },
+  {
+    "Id": "26010534",
+    "Name": "A400",
+    "Maker": "Kingston",
+    "RPM": 0,
+    "Size": 120,
+    "PurchasePrice": 199,
+    "RetailPrice": 299
+  }
+]
