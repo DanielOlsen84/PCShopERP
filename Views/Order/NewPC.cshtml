@@ -4,7 +4,6 @@
     ViewData["Title"] = "Assemble a new PC";
 }
 
-<h1>Tjo</h1>
 
 @*<div class="form-group">
     <label asp-for="Chassis" class="control-label">Chassi:</label>
@@ -12,81 +11,103 @@
     
 </div>*@
 
+
 <div class="buildPCContainer">
+    
+    <div class="buildPCTitleContainer">
+        <div class="buildPCTitleText">
+            <h2>Build your PC</h2>
+            <p>Choose the components you want to be installed in your new computer.</p>
+        </div>
+        <div class="buildPCImage">
+            <img src="~/images/buildPC.jpg" />
+        </div>
+    </div>
+
     <div class="form-group">
         <form asp-action="NewPC">
-        <label for="Id">Chassi:</label>
-        <select name="Id" id="ChassiSelect">
-        @foreach (var item in Model.Chassis) {
-        <option value="@item.Id">@Html.DisplayFor(modelItem => item.Maker), @Html.DisplayFor(modelItem => item.Name), [@Html.DisplayFor(modelItem => item.RetailPrice):-]</option>
-        }
-        </select> 
+            <div class="card orderNewPCCard">
+                <label for="Id">Chassi:</label>
+                <br />
+                <select name="Id" id="ChassiSelect">
+                @foreach (var item in Model.Chassis) {
+                <option value="@item.Id">@Html.DisplayFor(modelItem => item.Maker), @Html.DisplayFor(modelItem => item.Name), [@Html.DisplayFor(modelItem => item.RetailPrice):-]</option>
+                }
+                </select> 
+            </div>
 
         <br />
 
-        <label for="Id2">CPU:</label>
-        <select name="Id2" id="CPUSelect">
-        @foreach (var item in Model.CPUs) {
-        <option value="@item.Id">@Html.DisplayFor(modelItem => item.Maker), @Html.DisplayFor(modelItem => item.Name), Cores: @Html.DisplayFor(modelItem => item.Cores), GHz: @Html.DisplayFor(modelItem => item.GHz), [@Html.DisplayFor(modelItem => item.RetailPrice):-]</option>
-        }
-        </select> 
+            <div class="card orderNewPCCard">
+                <label for="Id2">CPU:</label><br />
+                <select name="Id2" id="CPUSelect">
+                @foreach (var item in Model.CPUs) {
+                <option value="@item.Id">@Html.DisplayFor(modelItem => item.Maker), @Html.DisplayFor(modelItem => item.Name), Cores: @Html.DisplayFor(modelItem => item.Cores), GHz: @Html.DisplayFor(modelItem => item.GHz), [@Html.DisplayFor(modelItem => item.RetailPrice):-]</option>
+                }
+                </select> 
+            </div>
 
         <br />
 
-        <label for="Id3">GPU:</label>
-        <select name="Id3" id="GPUSelect">
-        @foreach (var item in Model.GPUs) {
-        <option value="@item.Id">@Html.DisplayFor(modelItem => item.Maker), @Html.DisplayFor(modelItem => item.Name), Memory: @Html.DisplayFor(modelItem => item.Memory)gb, [@Html.DisplayFor(modelItem => item.RetailPrice):-]</option>
-        }
-        </select> 
-
+            <div class="card orderNewPCCard">
+                <label for="Id3">GPU:</label><br />
+                <select name="Id3" id="GPUSelect">
+                @foreach (var item in Model.GPUs) {
+                <option value="@item.Id">@Html.DisplayFor(modelItem => item.Maker), @Html.DisplayFor(modelItem => item.Name), Memory: @Html.DisplayFor(modelItem => item.Memory)gb, [@Html.DisplayFor(modelItem => item.RetailPrice):-]</option>
+                }
+                </select> 
+            </div>
         <br />
 
-        <label for="Id4">Hard drive:</label>
-        <select name="Id4" id="HDDSelect">
-        @foreach (var item in Model.HDDs) {
-        <option value="@item.Id">@Html.DisplayFor(modelItem => item.Maker), @Html.DisplayFor(modelItem => item.Name), Size: @Html.DisplayFor(modelItem => item.Size), RPM: @Html.DisplayFor(modelItem => item.RPM), [@Html.DisplayFor(modelItem => item.RetailPrice):-]</option>
-        }
-        </select> 
-
+            <div class="card orderNewPCCard">
+                <label for="Id4">Hard drive:</label><br />
+                <select name="Id4" id="HDDSelect">
+                @foreach (var item in Model.HDDs) {
+                <option value="@item.Id">@Html.DisplayFor(modelItem => item.Maker), @Html.DisplayFor(modelItem => item.Name), Size: @Html.DisplayFor(modelItem => item.Size), RPM: @Html.DisplayFor(modelItem => item.RPM), [@Html.DisplayFor(modelItem => item.RetailPrice):-]</option>
+                }
+                </select> 
+            </div>
         <br />
 
-        <label for="Id5">Motherboard:</label>
-        <select name="Id5" id="MotherboardSelect">
-        @foreach (var item in Model.Motherboards) {
-        <option value="@item.Id">@Html.DisplayFor(modelItem => item.Maker), @Html.DisplayFor(modelItem => item.Name), [@Html.DisplayFor(modelItem => item.RetailPrice):-]</option>
-        }
-        </select> 
-
+            <div class="card orderNewPCCard">
+                <label for="Id5">Motherboard:</label><br />
+                <select name="Id5" id="MotherboardSelect">
+                @foreach (var item in Model.Motherboards) {
+                <option value="@item.Id">@Html.DisplayFor(modelItem => item.Maker), @Html.DisplayFor(modelItem => item.Name), [@Html.DisplayFor(modelItem => item.RetailPrice):-]</option>
+                }
+                </select> 
+            </div>
         <br />
 
-        <label for="Id6">Power Supply:</label>
-        <select name="Id6" id="PSUSelect">
-        @foreach (var item in Model.PSUs) {
-        <option value="@item.Id">@Html.DisplayFor(modelItem => item.Maker), @Html.DisplayFor(modelItem => item.Name), Watt: @Html.DisplayFor(modelItem => item.Watt), [@Html.DisplayFor(modelItem => item.RetailPrice):-]</option>
-        }
-        </select> 
-
+            <div class="card orderNewPCCard">
+                <label for="Id6">Power Supply:</label><br />
+                <select name="Id6" id="PSUSelect">
+                @foreach (var item in Model.PSUs) {
+                <option value="@item.Id">@Html.DisplayFor(modelItem => item.Maker), @Html.DisplayFor(modelItem => item.Name), Watt: @Html.DisplayFor(modelItem => item.Watt), [@Html.DisplayFor(modelItem => item.RetailPrice):-]</option>
+                }
+                </select> 
+            </div>
         <br />
 
-        <label for="Id7">RAM:</label>
-        <select name="Id7" id="RAMSelect">
-        @foreach (var item in Model.RAMs) {
-        <option value="@item.Id">@Html.DisplayFor(modelItem => item.Maker), @Html.DisplayFor(modelItem => item.Name), Memory: @Html.DisplayFor(modelItem => item.Memory), DDR: @Html.DisplayFor(modelItem => item.DDR), MHz: @Html.DisplayFor(modelItem => item.MHz), [@Html.DisplayFor(modelItem => item.RetailPrice):-]</option>
-        }
-        </select> 
-
+            <div class="card orderNewPCCard">
+                <label for="Id7">RAM:</label><br />
+                <select name="Id7" id="RAMSelect">
+                @foreach (var item in Model.RAMs) {
+                <option value="@item.Id">@Html.DisplayFor(modelItem => item.Maker), @Html.DisplayFor(modelItem => item.Name), Memory: @Html.DisplayFor(modelItem => item.Memory), DDR: @Html.DisplayFor(modelItem => item.DDR), MHz: @Html.DisplayFor(modelItem => item.MHz), [@Html.DisplayFor(modelItem => item.RetailPrice):-]</option>
+                }
+                </select> 
+            </div>
         <br />
     
-        <p id="TotalPrice">0:-</p>
-            <input type="submit" value="Create" class="btn btn-primary" />
+            <div class="card orderNewPCCard">
+                <p id="TotalPrice">Total price: 0:-</p>
+                <input type="submit" value="Send Order" class="btn btn-primary" />
+            </div>
         </form>
 
     </div>
 
-    <div class="buildPCImage">
-        <img src="~/images/buildPC.jpg" />
-    </div>
+    
 </div>
 
 <script src="/js/OrderPCScripts.js"></script>

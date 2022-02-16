@@ -72,5 +72,5 @@ function UpdateTotalPrice() {
     totalPrice = totalPrice + parseInt(text.substring(text.indexOf("[") + 1, text.length - 3));
 
 
-    totalPriceText.innerHTML = totalPrice + ":-";
+    totalPriceText.innerHTML = "Total price: " + totalPrice + ":-";
 }

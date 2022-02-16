@@ -151,12 +151,50 @@ body {
     
 }
 
+
+
+
 .buildPCContainer {
     display: flex;
-    flex-direction: row;
+    /*width: 100vw;*/
+    /*align-self: flex-start;*/
+    justify-content: flex-start;
+    flex-direction: column;
+    /*background-image: url("../images/buildPC.jpg");*/
 }
 
-.buildPCImage img{
+.buildPCTitleContainer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.buildPCTitleText {
     /*display: flex;*/
-    width: 50%;
+    width: 100%;
+    flex-basis: 50%;
+}
+
+.buildPCImage {
+    /*display: flex;*/
+    flex-basis: 50%;
+}
+.buildPCImage img {
+    width: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    /*border-style: solid;*/
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.orderNewPCCard {
+    /*display: flex;*/
+    background-color: lightgray;
+}
+
+
+.orderNewPCCard {
+
+    padding: 10px;
 }
